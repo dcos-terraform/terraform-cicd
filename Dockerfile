@@ -10,4 +10,5 @@ RUN apk add git      \
             go       \
             musl-dev \
             bash     \
-            rsync
+            rsync    \
+            jq
