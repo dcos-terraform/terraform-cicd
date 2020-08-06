@@ -1,4 +1,4 @@
-FROM dcosterraform/terraform-jenkins:0.11.14 
+FROM dcosterraform/terraform-jenkins:0.1.0
 
 # adding packages for dcos-terraform integration test related stage
 RUN apk add --update --no-cache \
