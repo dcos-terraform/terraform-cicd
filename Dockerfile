@@ -4,6 +4,7 @@ FROM dcosterraform/terraform-jenkins:latest
 RUN apk add --update --no-cache \
   bash \
   ca-certificates \
+  coreutils \
   curl \
   jq \
   git
